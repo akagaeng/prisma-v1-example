@@ -28,6 +28,18 @@ prisma init --endpoint http://localhost:4466
 * `prisma.yml`: Prisma service definition
 * `datamodel.prisma`: GraphQL SDL-based datamodel (foundation for database)
 
+## Deploy the Prisma datamodel
+
+```shell
+prisma deploy
+# model -> ddl
+```
+
+## View and edit data from Prisma Admin
+* http://localhost:4466/_admin
+
+## Generate the Prisma client
+
 
 ## Documents
 * [Prisma V1 docs](https://v1.prisma.io/docs/1.34)
