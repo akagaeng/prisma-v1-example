@@ -62,5 +62,15 @@ node index.js
 ]
 ```
 
+## Trouble Shooting
+* Apple M1 issues => try from other architecture environment
+* Database synchronize is not working properly
+
+```shell
+# try delete first, and deploy
+prisma delete
+prisma deploy
+```
+
 ## Documents
 * [Prisma V1 docs](https://v1.prisma.io/docs/1.34)
