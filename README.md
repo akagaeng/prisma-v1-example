@@ -40,6 +40,27 @@ prisma deploy
 
 ## Generate the Prisma client
 
+```shell
+prisma generate
+# generate files under specified in prisma.yml (./generated/prisma-client)
+```
+
+## Setup sample Nodejs application
+
+```javascript
+//  index.js
+// yarn add prisma-client-lib
+
+node index.js
+
+[
+  {
+    id: 'cksg78f2j00120839i1gnxjvf',
+    name: 'Alice',
+    email: 'alice@Wonderland.com'
+  }
+]
+```
 
 ## Documents
 * [Prisma V1 docs](https://v1.prisma.io/docs/1.34)
