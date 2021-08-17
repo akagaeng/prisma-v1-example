@@ -1,0 +1,11 @@
+{
+  "name": "prisma-v1-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akagaeng/prisma-v1-example.git",
+  "author": "akagaeng <akagaeng@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prisma-client-lib": "^1.34.12"
+  }
+}
